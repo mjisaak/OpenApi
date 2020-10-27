@@ -1,0 +1,22 @@
+{
+  "name": "openapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx spectral lint -q petstore-api.yaml",
+    "serve": "npx redoc-cli serve petstore-api.yaml",
+    "generate": "npx @openapitools/openapi-generator-cli generate -g typescript-rxjs -o src -i petstore-api.yaml",
+    "list": "npx @openapitools/openapi-generator-cli list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjisaak/OpenApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjisaak/OpenApi/issues"
+  },
+  "homepage": "https://github.com/mjisaak/OpenApi#readme"
+}
