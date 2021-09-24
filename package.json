@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "npx spectral lint -q petstore-api.yaml",
     "serve": "npx redoc-cli serve petstore-api.yaml",
-    "generate": "npx @openapitools/openapi-generator-cli generate -g typescript-rxjs -o src -i petstore-api.yaml",
+    "generate": "npx @openapitools/openapi-generator-cli generate -g typescript-angular -o src -i petstore-api.yaml",
     "list": "npx @openapitools/openapi-generator-cli list"
   },
   "repository": {
